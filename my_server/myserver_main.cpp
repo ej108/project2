@@ -20,6 +20,7 @@ int main() {
 		accepted.recv( &i );
 		cout << "Received from client: " << i << endl;
 		cout << "Doubling and sending to client" << endl;
+		i *= 2;
 		accepted.send( &i );
 
 		std::string::size_type length;

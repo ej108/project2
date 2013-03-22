@@ -57,7 +57,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>COPY $(ProjectDir)*.hpp $(SolutionDir)include\*.hpp</Command>
+      <Command>COPY "$(ProjectDir)*.hpp" "$(SolutionDir)include\*.hpp"</Command>
       <Message>Copy header files</Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
