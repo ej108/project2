@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socket_library", "socket_library\socket_library.vcxproj", "{52719098-E2BD-446F-9DF1-5DE0E29B86DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{91BC3B93-DCFA-4C8C-95E3-B6D28971F7DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "my_client", "my_client\my_client.vcxproj", "{7F7D01A4-2E77-4882-B020-46AE5C0279C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52719098-E2BD-446F-9DF1-5DE0E29B86DD} = {52719098-E2BD-446F-9DF1-5DE0E29B86DD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "my_server", "my_server\my_server.vcxproj", "{157071B6-C6B9-48AB-993F-602935A3C57A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52719098-E2BD-446F-9DF1-5DE0E29B86DD} = {52719098-E2BD-446F-9DF1-5DE0E29B86DD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52719098-E2BD-446F-9DF1-5DE0E29B86DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52719098-E2BD-446F-9DF1-5DE0E29B86DD}.Debug|Win32.Build.0 = Debug|Win32
+		{52719098-E2BD-446F-9DF1-5DE0E29B86DD}.Release|Win32.ActiveCfg = Release|Win32
+		{52719098-E2BD-446F-9DF1-5DE0E29B86DD}.Release|Win32.Build.0 = Release|Win32
+		{7F7D01A4-2E77-4882-B020-46AE5C0279C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F7D01A4-2E77-4882-B020-46AE5C0279C9}.Debug|Win32.Build.0 = Debug|Win32
+		{7F7D01A4-2E77-4882-B020-46AE5C0279C9}.Release|Win32.ActiveCfg = Release|Win32
+		{7F7D01A4-2E77-4882-B020-46AE5C0279C9}.Release|Win32.Build.0 = Release|Win32
+		{157071B6-C6B9-48AB-993F-602935A3C57A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{157071B6-C6B9-48AB-993F-602935A3C57A}.Debug|Win32.Build.0 = Debug|Win32
+		{157071B6-C6B9-48AB-993F-602935A3C57A}.Release|Win32.ActiveCfg = Release|Win32
+		{157071B6-C6B9-48AB-993F-602935A3C57A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F7D01A4-2E77-4882-B020-46AE5C0279C9} = {91BC3B93-DCFA-4C8C-95E3-B6D28971F7DA}
+		{157071B6-C6B9-48AB-993F-602935A3C57A} = {91BC3B93-DCFA-4C8C-95E3-B6D28971F7DA}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
