@@ -7,7 +7,7 @@ int main() {
 	try {
 		cout << "Server..." << endl;
 		SocketBase base( SOCK_STREAM, IPPROTO_TCP );
-		base.bind( "127.0.0.1", 49153 );
+		base.bind( "127.0.0.1", 51000 );
 
 		base.listen();
 

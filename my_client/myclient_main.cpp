@@ -6,7 +6,7 @@ int main() {
 	try {
 		cout << "Client..." << endl;
 		SocketBase base( SOCK_STREAM, IPPROTO_TCP );
-		base.connect( "127.0.0.1", 49153 );
+		base.connect( "127.0.0.1", 51000 );
 
 		cout << "Client connected" << endl;
 
