@@ -15,25 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="winsock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="socket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="winsock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="socket.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Include\socket.hpp">
+      <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="utility.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Include\utility.hpp">
+      <Filter>Resource Files</Filter>
     </ClInclude>
-    <ClInclude Include="winsock.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\Include\winsock.hpp">
+      <Filter>Resource Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

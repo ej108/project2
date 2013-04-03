@@ -1,0 +1,17 @@
+﻿Build started 4/2/2013 11:06:43 PM.
+     1>Project "C:\5th Semester\INFO5062 Patterns in Software\project02\my_server\my_server.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug DLL\my_server.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\5th Semester\INFO5062 Patterns in Software\project02\Debug DLL\my_server.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\5th Semester\INFO5062 Patterns in Software\project02\Debug DLL\my_server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\5th Semester\INFO5062 Patterns in Software\project02\Debug DLL\my_server.lib" /MACHINE:X86 "Debug DLL\myserver_main.obj"
+         my_server.vcxproj -> C:\5th Semester\INFO5062 Patterns in Software\project02\Debug DLL\my_server.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug DLL\my_server.unsuccessfulbuild".
+         Touching "Debug DLL\my_server.lastbuildstate".
+     1>Done Building Project "C:\5th Semester\INFO5062 Patterns in Software\project02\my_server\my_server.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.37
